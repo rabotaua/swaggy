@@ -23,3 +23,10 @@ Links:
 [swagger-codegen](https://github.com/swagger-api/swagger-codegen)
 
 [petstore demo project](https://github.com/swagger-api/swagger-codegen/tree/master/samples/client/petstore/typescript-angular-v4.3/npm)
+
+## Build and publish branch
+
+```
+docker build -t rabotaua/swaggy:rx6 .
+docker push rabotaua/swaggy:rx6
+```
